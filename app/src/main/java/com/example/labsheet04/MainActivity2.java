@@ -28,8 +28,8 @@ public class MainActivity2 extends AppCompatActivity {
         NotificationCompat.Builder builder = new
                 NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_launcher_background)
-                .setContentTitle("My notification")
-                .setContentText("Hello World!")
+                .setContentTitle("notification")
+                .setContentText("World!")
 
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 // Set the intent that will fire when the user taps the notification
